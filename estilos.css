@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fff3b0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.contenedor {
+    background: white;
+
+    width: 80%;
+    max-width: 450px;
+
+    padding: 40px 25px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #e6a800;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+button {
+    background: #f5c400;
+    color: #4d3b00;
+
+    border: none;
+
+    padding: 13px 25px;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+#sorpresa {
+    display: none;
+}
+
+#cine {
+    display: none;
+}
+
+.flores {
+    font-size: 55px;
+    margin: 20px 0;
+}
+
+.boleto {
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background: #fff8d8;
+
+    border: 2px dashed #e6a800;
+
+    border-radius: 15px;
+}
+
+.boleto h2 {
+    color: #d59600;
+}
+#botonAbrir {
+    transition: opacity 0.5s ease;
+}
+
+#botonAbrir.oculto {
+    opacity: 0;
+    pointer-events: none;
+}
